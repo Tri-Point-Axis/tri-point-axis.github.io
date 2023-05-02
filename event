@@ -1,0 +1,10 @@
+const btnPrevious = document.querySelector('#btnPrevious');
+const btnNext = document.querySelector('#btnNext');
+btnPrevious.addEventListener('click', function() {
+  console.log('btnPrevious clicked!');
+  // add code to execute when the button is clicked
+});
+btnNext.addEventListener('click', function() {
+    console.log('btnNext clicked!');
+    // add code to execute when the button is clicked
+  });
